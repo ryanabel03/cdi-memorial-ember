@@ -7,6 +7,9 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route("season", { path: "seasons/:season_id" }, function() {
+    this.route("outing", { path: "outings/:outing_id" });
+  });
   // this.resource('posts');
 });
 

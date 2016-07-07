@@ -3,6 +3,7 @@
 //= require ./environment
 //= require ember
 //= require ember-data
+//= require twitter/bootstrap
 //= require ember-rails/application
 //
 //= require ./cdi-memorial-ember
